@@ -2,21 +2,43 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>My Shop</title>
+  <title>Product Showcase</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>My Shop</h1>
-  <button id="darkToggle">🌙</button>
+<header class="hero">
+  <h1 class="fade">New Collection</h1>
+  <p class="fade">シンプルで美しい商品体験</p>
 </header>
 
-<main>
-  <section class="products" id="productList">
-    <!-- JSで商品を生成 -->
-  </section>
-</main>
+<section class="product">
+  <div class="text fade-left">
+    <h2>スニーカー</h2>
+    <p>快適さとデザインを両立した一足</p>
+  </div>
+  <img src="https://picsum.photos/500?1" class="fade-right">
+</section>
+
+<section class="product reverse">
+  <div class="text fade-left">
+    <h2>腕時計</h2>
+    <p>洗練されたミニマルデザイン</p>
+  </div>
+  <img src="https://picsum.photos/500?2" class="fade-right">
+</section>
+
+<section class="product">
+  <div class="text fade-left">
+    <h2>バッグ</h2>
+    <p>日常に溶け込む上質なデザイン</p>
+  </div>
+  <img src="https://picsum.photos/500?3" class="fade-right">
+</section>
+
+<footer>
+  <p>© 2026 My Brand</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
